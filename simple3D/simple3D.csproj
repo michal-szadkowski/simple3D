@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Shaders\FlatShader.cs">
+      <CustomToolNamespace>simple3d.Shaders</CustomToolNamespace>
+    </Compile>
+    <Compile Update="Shaders\FlatShaderFactory.cs">
+      <CustomToolNamespace>simple3d.Shaders</CustomToolNamespace>
+    </Compile>
+    <Compile Update="Shaders\GouraudShader.cs">
+      <CustomToolNamespace>simple3d.Shaders</CustomToolNamespace>
+    </Compile>
+    <Compile Update="Shaders\GouraudShaderFactory.cs">
+      <CustomToolNamespace>simple3d.Shaders</CustomToolNamespace>
+    </Compile>
+    <Compile Update="Shaders\IShader.cs">
+      <CustomToolNamespace>simple3d.Shaders</CustomToolNamespace>
+    </Compile>
+    <Compile Update="Shaders\IShaderFactory.cs">
+      <CustomToolNamespace>simple3d.Shaders</CustomToolNamespace>
+    </Compile>
+    <Compile Update="Shaders\PhongShader.cs">
+      <CustomToolNamespace>simple3d.Shaders</CustomToolNamespace>
+    </Compile>
+    <Compile Update="Shaders\PhongShaderFactory.cs">
+      <CustomToolNamespace>simple3d.Shaders</CustomToolNamespace>
+    </Compile>
+  </ItemGroup>
+
+</Project>
